@@ -1,0 +1,6 @@
+projectKey=BIBLIOPLUS
+serverUrl=http://localhost:9000
+serverVersion=25.2.0.102705
+dashboardUrl=http://localhost:9000/dashboard?id=BIBLIOPLUS
+ceTaskId=fbdfb461-8077-494f-bbd9-2c6a465b3821
+ceTaskUrl=http://localhost:9000/api/ce/task?id=fbdfb461-8077-494f-bbd9-2c6a465b3821

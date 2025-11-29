@@ -1,0 +1,40 @@
+Este es para las tablas cambiar el idioma de ingles a español
+<script>
+        $(document).ready(function() {
+            $('#tabla').DataTable({
+                "lengthMenu": [3, 5, 10, 20],
+                "language": {
+                    "lengthMenu": "Mostrar _MENU_ registros por página",
+                    "zeroRecords": "No se encontraron registros",
+                    "info": "Mostrando página _PAGE_ de _PAGES_",
+                    "infoEmpty": "No hay registros disponibles",
+                    "infoFiltered": "(filtrado de _MAX_ registros totales)",
+                    "search": "Buscar:",
+                    "paginate": {
+                        "first": "Primero",
+                        "last": "Último",
+                        "next": "Siguiente",
+                        "previous": "Anterior"
+                    }
+                }
+            });
+        });
+    </script>
+
+
+este codigo se repite en todo cuando vas a crear un nuevo archi que va a servir
+para direccionar las cosas
+
+<!-- realiza el llamado de la cabecera -->
+<?php include('../templates/cabeza.php'); ?>
+
+<!-- el span es para todos los encabezados -->
+<section class="home-section">
+    <div class="home-content">
+        <i class='bx bx-menu'></i>
+        <span class="text">Alumno</span>
+    </div>
+
+    </section>
+
+<?php include('../templates/pie.php'); ?>
